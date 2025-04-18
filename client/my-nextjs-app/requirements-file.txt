@@ -1,0 +1,95 @@
+step1 day 1
+
+find figma design 
+figure out features -
+
+step2 day2 
+
+implement backend features 
+
+step3 day 3 
+
+build front end page 
+
+step4 day 4 
+
+implement  functionality or connection to the backend 
+
+step5 day 5 
+
+testing and deployment 
+
+step6 day 6 
+
+close or end project 
+
+
+
+
+progress 
+day 1 - figma design found and  features listed
+
+day 2 - backend implemented and tested (success)
+
+day 3 - complete page built 
+
+day4 - project complete close project 
+
+great job tunde 
+
+
+
+
+tools used 
+next.js (ts)
+
+nodemailer for email confirmation
+
+Frontend: next.js (ts) + Tailwind CSS
+
+Backend: Node.js + Express 
+
+Database: mysql2 + PRISMA (ORM)
+
+Email Service: NodeMailer
+
+
+
+
+features 
+
+Frontend (UI):
+
+A form with an input for email.
+
+A submit button.
+
+Some kind of success/failure message.
+
+Backend (Optional but cool):
+
+Receives the email address.
+
+Stores it in a database
+
+Optionally sends a confirmation email using a service 
+
+Styling/UX:
+
+Tailwind or plain CSS for the design.
+
+Maybe a nice toast popup when someone subscribes.
+
+
+flow 
+ Basic Flow:
+User enters their email on the home page.
+
+Form sends a POST request to /api/subscribe.
+
+The API route stores the email  DB .
+
+Show a success/failure message on the page.
+
+ Use an email service to send a welcome email.
+
