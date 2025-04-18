@@ -1,7 +1,7 @@
 export default function Blogs() {
   return (
     <div className="w-full bg-white justify-self-center mt-8">
-      <div className="w-[70%] justify-self-center">
+      <div className="w-[70%] mx-auto">
         <h1 className="text-center text-4xl">Blogs</h1>
         <div className="w-full flex flex-col gap-10 sm:grid sm:gap-8  lg:grid mt-4 lg:gap-10   justify-center items-center grid-cols-3 grid-rows-2 ">
           <div className="">
@@ -51,9 +51,9 @@ export default function Blogs() {
         </div>
       </div>
 
-      <div className="bg-[#E3473C] text-white  text-center mt-8  justify-self-center sm:w-[70%] rounded-sm  py-10">
+      <div className="bg-[#E3473C] text-white mx-auto text-center mt-8  sm:w-[70%] rounded-sm  py-10">
         <h1 className="text-center text-4xl">Blogs</h1>
-        <p className="mt-6 w-[80%] sm:w-[70%] lg:w-[60%] text-center justify-self-center">
+        <p className="mt-6 w-[80%] sm:w-[70%] lg:w-[60%] text-center mx-auto">
           Delve deeper into the origins of holiday traditions. From ancient
           customs to modern-day practices, discover how they've shaped our
           festive celebrations today.

@@ -6,13 +6,13 @@ export default function Hero() {
           {" "}
           Embrace the <span className="text-[#E3473C]">festive spirit!</span>
         </h1>
-        <div className="justify-self-center mt-4">
+        <div className="flex justify-center mt-4">
           {" "}
           <button className="bg-[#E3473C] text-[12px]  text-white rounded-md px-4 py-2 ">
             Link to online version of the email.
           </button>
         </div>
-        <div className="mt-6 w-[80%] text-sm sm:text-base flex sm:w-[50%] justify-self-center justify-between ">
+        <div className="mt-6 w-[80%] mx-auto text-sm sm:text-base flex sm:w-[50%]  justify-center items-center gap-4">
           <p>Specials </p>
           <p>Holiday edition</p>
           <p>Get in touch</p>

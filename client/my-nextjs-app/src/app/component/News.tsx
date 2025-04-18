@@ -2,7 +2,7 @@ export default function News() {
   return (
     <div className="w-full mt-8">
       <h1 className="text-center text-4xl">News Section</h1>
-      <div className="sm:flex w-[50%] justify-self-center gap-10 mt-4">
+      <div className="sm:flex w-[50%] mx-auto gap-10 mt-4">
         <div>
           <img
             className="w-[200px] h-[193px] lg:w-[300px] lg:h-[300px]"
