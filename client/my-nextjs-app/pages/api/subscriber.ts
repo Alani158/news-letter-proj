@@ -19,13 +19,13 @@ export default async function handler(
   if (req.method === "POST") {
     const { email } = req.body;
 
-  const existing = await prisma.newsletterSubscriber.findUnique({
-  where: { email },
-});
+    const existing = await prisma.newsletterSubscriber.findUnique({
+      where: { email },
+    });
 
-if (existing) {
-  return res.status(409).json({ error: "Email already subscribed" });
-}
+    if (existing) {
+      return res.status(409).json({ error: "Email already subscribed" });
+    }
     if (!email || typeof email !== "string") {
       return res.status(400).json({ error: "Invalid email address" });
     }
