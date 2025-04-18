@@ -9,13 +9,16 @@ export default function Footer() {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/subscriber", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
+      const response = await fetch(
+        "https://interior-design-m-jand-zee.netlify.app/.netlify/functions/subscriber", // Update to the full Netlify Function URL
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        }
+      );
 
       if (response.ok) {
         setMessage("Subscription successful!");

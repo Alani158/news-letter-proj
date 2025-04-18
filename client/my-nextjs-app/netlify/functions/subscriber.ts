@@ -30,10 +30,24 @@ const handler: Handler = async (event) => {
       };
     }
 
+    // Check if the email already exists
+    const existingSubscriber = await prisma.newsletterSubscriber.findUnique({
+      where: { email },
+    });
+
+    if (existingSubscriber) {
+      return {
+        statusCode: 409,
+        body: JSON.stringify({ error: "Email already subscribed" }),
+      };
+    }
+
+    // Create a new subscriber
     const subscriber = await prisma.newsletterSubscriber.create({
       data: { email },
     });
 
+    // Send a confirmation email
     await transporter.sendMail({
       from: `"Newsletter" <${process.env.EMAIL_USER}>`,
       to: email,
