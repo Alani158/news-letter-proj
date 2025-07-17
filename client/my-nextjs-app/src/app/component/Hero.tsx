@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="w-full bg-white justify-self-center">
       <div className="w-full mt-8  justify-self-center">
-        <h1 className="text-center font-extralight text-2xl">
+        <h1 className="text-center sm:font-medium font-extralight text-2xl">
           {" "}
           Embrace the <span className="text-[#E3473C]">festive spirit!</span>
         </h1>

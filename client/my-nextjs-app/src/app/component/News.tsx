@@ -7,6 +7,7 @@ export default function News() {
           <img
             className="w-[200px] h-[193px] lg:w-[300px] lg:h-[300px]"
             src="/newsimg1.svg"
+            alt="txt"
           />
 
           <h1 className="mt-4 text-base lg:text-lg">Festive decor</h1>
@@ -20,6 +21,7 @@ export default function News() {
           <img
             className="w-[200px] h-[193px] lg:w-[300px] lg:h-[300px]"
             src="/newsimg2.svg"
+            alt="txt"
           />
           <h1 className="mt-4 text-base lg:text-lg">Joyful moments </h1>
           <p className="mt-4 text-sm">
