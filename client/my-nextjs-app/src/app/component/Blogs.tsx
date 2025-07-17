@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Blogs() {
   return (
     <div className="w-full bg-white justify-self-center mt-8">
@@ -5,7 +6,13 @@ export default function Blogs() {
         <h1 className="text-center text-4xl">Blogs</h1>
         <div className="w-full flex flex-col gap-10 sm:grid sm:gap-8  lg:grid mt-4 lg:gap-10   justify-center items-center grid-cols-3 grid-rows-2 ">
           <div className="">
-            <img src="/grid1.png" alt="Background" className="w-full h-full" />
+            <Image
+              src="/grid1.png"
+              alt="Background"
+              className="w-full h-full"
+              width={400}
+              height={300}
+            />
             <h1 className="mt-4 sm:text-base lg:text-lg">Festive Treats</h1>
             <p className="mt-4 text-sm  lg:h-[70px]">
               Explore the rich variety of holiday treats, from gingerbread
@@ -13,7 +20,13 @@ export default function Blogs() {
             </p>
           </div>
           <div className="">
-            <img src="/grid2.png" alt="Background" className="w-full h-full" />
+            <Image
+              src="/grid2.png"
+              alt="Background"
+              className="w-full h-full"
+              width={400}
+              height={300}
+            />
             <h1 className="mt-4 sm:text-base lg:text-lg">Warm Beverages</h1>
             <p className="mt-4 text-sm  lg:h-[70px]">
               Dive into the warm and cozy world of festive drinks. Whether it's
@@ -21,7 +34,13 @@ export default function Blogs() {
             </p>
           </div>
           <div>
-            <img src="/grid3.png" alt="Background" className="w-full h-full" />
+            <Image
+              src="/grid3.png"
+              alt="Background"
+              className="w-full h-full"
+              width={400}
+              height={300}
+            />
             <h1 className="mt-4 sm:text-base lg:text-lg">
               Sparkling Adornments
             </h1>
@@ -31,7 +50,13 @@ export default function Blogs() {
             </p>
           </div>
           <div>
-            <img src="/grid4.png" alt="Background" className="w-full h-full" />
+            <Image
+              src="/grid4.png"
+              alt="Background"
+              className="w-full h-full"
+              width={400}
+              height={300}
+            />
             <h1 className="mt-4 sm:text-base lg:text-lg">
               Winter Celebrations
             </h1>
@@ -41,7 +66,13 @@ export default function Blogs() {
             </p>
           </div>
           <div>
-            <img src="/grid5.png" alt="Background" className="w-full h-full" />
+            <Image
+              src="/grid5.png"
+              alt="Background"
+              className="w-full h-full"
+              width={400}
+              height={300}
+            />
             <h1 className="mt-4 sm:text-base lg:text-lg">Thoughtful Gifting</h1>
             <p className="mt-4 text-sm  lg:h-[70px]">
               Explore the tradition of gifting and how it evolved over time,

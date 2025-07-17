@@ -1,15 +1,17 @@
+import Image from "next/image";
 export default function News() {
   return (
     <div className="w-full mt-8">
       <h1 className="text-center text-4xl">News Section</h1>
       <div className="sm:flex w-[50%] mx-auto gap-10 mt-4">
         <div>
-          <img
+          <Image
             className="w-[200px] h-[193px] lg:w-[300px] lg:h-[300px]"
             src="/newsimg1.png"
-            alt="txt"
+            alt="Festive decor"
+            width={300}
+            height={300}
           />
-
           <h1 className="mt-4 text-base lg:text-lg">Festive decor</h1>
           <p className="mt-4 text-sm">
             Get inspired by the latest trends in holiday decor and transform
@@ -17,11 +19,12 @@ export default function News() {
           </p>
         </div>
         <div className="pt-4 sm:pt-0">
-          {" "}
-          <img
+          <Image
             className="w-[200px] h-[193px] lg:w-[300px] lg:h-[300px]"
             src="/newsimg2.png"
-            alt="txt"
+            alt="Joyful moments"
+            width={300}
+            height={300}
           />
           <h1 className="mt-4 text-base lg:text-lg">Joyful moments </h1>
           <p className="mt-4 text-sm">

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Footer() {
@@ -40,30 +41,40 @@ export default function Footer() {
           Festive Moments Connect with us:
         </h1>
         <div className="w-full flex justify-center gap-6 sm:gap-10 mt-6">
-          <img
+          <Image
             src="/facebookicon.png"
             alt="facebookicon"
             className="cursor-pointer"
+            width={32}
+            height={32}
           />
-          <img
+          <Image
             src="/twittericon.png"
             alt="twittericon"
             className="cursor-pointer"
+            width={32}
+            height={32}
           />
-          <img
+          <Image
             src="/pininterest.png"
             alt="pininteresticon"
             className="cursor-pointer"
+            width={32}
+            height={32}
           />
-          <img
+          <Image
             src="/instagram.png"
             alt="instagramicon"
             className="cursor-pointer"
+            width={32}
+            height={32}
           />
-          <img
+          <Image
             src="/youtube.png"
             alt="youtubeicon"
             className="cursor-pointer"
+            width={32}
+            height={32}
           />
         </div>
         <div className="w-full text-center flex flex-col justify-center items-center gap-10 mt-6">
