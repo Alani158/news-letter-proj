@@ -6,7 +6,7 @@ export default function News() {
         <div>
           <img
             className="w-[200px] h-[193px] lg:w-[300px] lg:h-[300px]"
-            src="/newsimg1.svg"
+            src="/newsimg1.png"
             alt="txt"
           />
 
@@ -16,11 +16,11 @@ export default function News() {
             your home into a winter wonderland.
           </p>
         </div>
-        <div>
+        <div className="pt-4 sm:pt-0">
           {" "}
           <img
             className="w-[200px] h-[193px] lg:w-[300px] lg:h-[300px]"
-            src="/newsimg2.svg"
+            src="/newsimg2.png"
             alt="txt"
           />
           <h1 className="mt-4 text-base lg:text-lg">Joyful moments </h1>

@@ -40,11 +40,31 @@ export default function Footer() {
           Festive Moments Connect with us:
         </h1>
         <div className="w-full flex justify-center gap-6 sm:gap-10 mt-6">
-          <img src="/facebookicon.svg" />
-          <img src="/twittericon.svg" />
-          <img src="/pininterest.svg" />
-          <img src="/instagram.svg" />
-          <img src="/youtube.svg" />
+          <img
+            src="/facebookicon.png"
+            alt="facebookicon"
+            className="cursor-pointer"
+          />
+          <img
+            src="/twittericon.png"
+            alt="twittericon"
+            className="cursor-pointer"
+          />
+          <img
+            src="/pininterest.png"
+            alt="pininteresticon"
+            className="cursor-pointer"
+          />
+          <img
+            src="/instagram.png"
+            alt="instagramicon"
+            className="cursor-pointer"
+          />
+          <img
+            src="/youtube.png"
+            alt="youtubeicon"
+            className="cursor-pointer"
+          />
         </div>
         <div className="w-full text-center flex flex-col justify-center items-center gap-10 mt-6">
           <p>Address: 1234 Pine Street, Holiday Town, HT 12345, Country</p>
