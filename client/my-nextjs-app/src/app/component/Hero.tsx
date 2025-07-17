@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="justify-self-center mt-4  flex justify-center w-full">
           <Image
             className="w-full sm:w-[70%] rounded-sm"
-            src="/bg.svg"
+            src="/bg.png"
             alt="Background"
             width={800} // set appropriate width
             height={400} // set appropriate height
