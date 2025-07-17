@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Hero() {
   return (
     <div className="w-full bg-white justify-self-center">
@@ -18,10 +19,13 @@ export default function Hero() {
           <p>Get in touch</p>
         </div>
         <div className="justify-self-center mt-4  flex justify-center w-full">
-          <img
+          <Image
             className="w-full sm:w-[70%] rounded-sm"
             src="/bg.png"
             alt="Background"
+            width={800} // adjust to your image's actual width
+            height={400} // adjust to your image's actual height
+            priority
           />
         </div>
         <div className="w-full mt-6 flex flex-col justify-center items-center">
